@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Growell Public School</title>
+  <meta name="description" content="Growell Public School - Nurturing Minds, Building Futures" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== LOADER ===== -->
+  <div id="loader">
+    <div class="loader-inner">
+      <img src="images/logo.png" width="350px" height="350px"  alt="Growell Public School Logo" class="loader-logo-img" />
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+      <p data-en="Loading..." data-hi="लोड हो रहा है...">Loading...</p>
+    </div>
+  </div>
+
+  <!-- ===== NAVBAR ===== -->
+  <header id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-brand">
+        <div class="brand-icon"><img src="images/logo.png" alt="Growell Public School Logo"></div>
+        <div class="brand-text">
+          <span class="brand-name" data-en="Growell Public School" data-hi="ग्रोवेल पब्लिक स्कूल">Growell Public School</span>
+          <span class="brand-tagline" data-en="Est. 2001 · Excellence in Education" data-hi="स्था. 2001 · शिक्षा में उत्कृष्टता">Est. 2009 · Excellence in Education</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" data-en="Home" data-hi="होम">Home</a>
+        <a href="#about" data-en="About" data-hi="हमारे बारे में">About</a>
+        <a href="#message" data-en="Message" data-hi="संदेश">Message</a>
+        <a href="#academics" data-en="Academics" data-hi="शिक्षा">Academics</a>
+        <a href="#admissions" data-en="Admissions" data-hi="प्रवेश">Admissions</a>
+        <a href="#notices" data-en="Notices" data-hi="सूचनाएं">Notices</a>
+        <a href="#events" data-en="Events" data-hi="कार्यक्रम">Events</a>
+        <a href="#gallery" data-en="Gallery" data-hi="गैलरी">Gallery</a>
+        <a href="#timetable" data-en="Timetable" data-hi="समय-सारणी">Timetable</a>
+        <a href="#contact" data-en="Contact" data-hi="संपर्क">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Language Toggle -->
+        <div class="lang-toggle" id="langToggle" title="Switch Language">
+          <span class="lang-label en active">EN</span>
+          <div class="toggle-track">
+            <div class="toggle-thumb"></div>
+          </div>
+          <span class="lang-label hi">हि</span>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <div class="hero-overlay"></div>
+      <div class="hero-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+      </div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge reveal" data-en="🎓 Admissions Open 2025–26" data-hi="🎓 प्रवेश खुले हैं 2025–26">🎓 Admissions Open 2025–26</div>
+      <h1 class="hero-title reveal">
+        <span data-en="Growell" data-hi="ग्रोवेल">Growell</span>
+        <em data-en="Public School" data-hi="पब्लिक स्कूल">Public School</em>
+      </h1>
+      <p class="hero-tagline reveal" data-en="Sample text." data-hi="Sample text.">
+        Sample text.
+      </p>
+      <p class="hero-sub reveal" data-en="Sample text." data-hi="Sample text.">
+        Sample text.
+      </p>
+      <div class="hero-buttons reveal">
+        <a href="#admissions" class="btn btn-primary">
+          <span data-en="Apply for Admission" data-hi="प्रवेश के लिए आवेदन करें">Apply for Admission</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <span data-en="Contact Us" data-hi="संपर्क करें">Contact Us</span>
+        </a>
+      </div>
+    </div>
+    <div class="hero-stats reveal">
+      <div class="stat-item">
+        <span class="stat-num">500+</span>
+        <span class="stat-label" data-en="Students" data-hi="छात्र">Students</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num">25+</span>
+        <span class="stat-label" data-en="Expert Faculty" data-hi="विशेषज्ञ शिक्षक">Expert Faculty</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num">100%</span>
+        <span class="stat-label" data-en="Board Results" data-hi="बोर्ड परिणाम">Board Results</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num">17+</span>
+        <span class="stat-label" data-en="Years of Excellence" data-hi="वर्षों की उत्कृष्टता">Years of Excellence</span>
+      </div>
+    </div>
+    <a href="#about" class="hero-scroll"><i class="fas fa-chevron-down"></i></a>
+  </section>
+
+  <!-- ===== HIGHLIGHTS STRIP ===== -->
+  <section class="highlights-strip">
+    <div class="highlight-item reveal">
+      <i class="fas fa-trophy"></i>
+      <span data-en="Sample text" data-hi="Sample text">Sample text</span>
+    </div>
+    <div class="highlight-item reveal">
+      <i class="fas fa-flask"></i>
+      <span data-en="Sample text" data-hi="Sample text">Sample text</span>
+    </div>
+    <div class="highlight-item reveal">
+      <i class="fas fa-bus"></i>
+      <span data-en="Sample text" data-hi="Sample text">Sample text</span>
+    </div>
+    <div class="highlight-item reveal">
+      <i class="fas fa-shield-alt"></i>
+      <span data-en="Sample text" data-hi="Sample text">Sample text</span>
+    </div>
+    <div class="highlight-item reveal">
+      <i class="fas fa-futbol"></i>
+      <span data-en="Sample text" data-hi="Sample text">Sample text</span>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="section-label reveal" data-en="Who We Are" data-hi="हम कौन हैं">Who We Are</div>
+      <h2 class="section-title reveal" data-en="About Growell Public School" data-hi="ग्रोवेल पब्लिक स्कूल के बारे में">About Growell Public School</h2>
+
+      <div class="about-grid">
+        <div class="about-image-block reveal">
+          <div class="about-img-main">
+            <div class="img-placeholder school-img">
+              <i class="fas fa-school"></i>
+              <span data-en="School Building" data-hi="स्कूल भवन">School Building</span>
+            </div>
+          </div>
+          <div class="about-img-accent">
+            <div class="img-placeholder students-img">
+              <i class="fas fa-users"></i>
+              <span data-en="Our Students" data-hi="हमारे छात्र">Our Students</span>
+            </div>
+          </div>
+          <div class="about-experience-badge">
+            <span class="exp-num">17+</span>
+            <span class="exp-text" data-en="Years of Excellence" data-hi="वर्षों की उत्कृष्टता">Years of Excellence</span>
+          </div>
+        </div>
+
+        <div class="about-content reveal">
+          <h3 data-en="Our Introduction" data-hi="हमारा परिचय">Our Introduction</h3>
+          <p data-en="Growell Public School, established in 2001, is a CBSE-affiliated institution committed to delivering world-class education in a nurturing environment. Located in the heart of the city, our school blends academic rigour with co-curricular excellence to develop well-rounded individuals." data-hi="ग्रोवेल पब्लिक स्कूल, 2001 में स्थापित, एक सीबीएसई-संबद्ध संस्थान है जो एक पोषणकारी वातावरण में विश्व स्तरीय शिक्षा प्रदान करने के लिए प्रतिबद्ध है। शहर के केंद्र में स्थित, हमारा स्कूल अच्छी तरह से संतुलित व्यक्तियों को विकसित करने के लिए शैक्षणिक कठोरता को सह-पाठ्यक्रम उत्कृष्टता के साथ जोड़ता है।">
+            Growell Public School, established in 2009, is a CBSE-affiliated institution committed to delivering world-class education in a nurturing environment. Located in the heart of the city, our school blends academic rigour with co-curricular excellence to develop well-rounded individuals.
+          </p>
+
+          <div class="vm-grid">
+            <div class="vm-card">
+              <div class="vm-icon"><i class="fas fa-eye"></i></div>
+              <h4 data-en="Our Vision" data-hi="हमारी दृष्टि">Our Vision</h4>
+              <p data-en="To be a globally recognized institution that empowers students to become compassionate, creative, and responsible leaders of tomorrow." data-hi="एक विश्व स्तर पर मान्यता प्राप्त संस्थान बनना जो छात्रों को कल के दयालु, रचनात्मक और जिम्मेदार नेता बनने के लिए सशक्त बनाए।">
+                To be a globally recognized institution that empowers students to become compassionate, creative, and responsible leaders of tomorrow.
+              </p>
+            </div>
+            <div class="vm-card">
+              <div class="vm-icon"><i class="fas fa-bullseye"></i></div>
+              <h4 data-en="Our Mission" data-hi="हमारा मिशन">Our Mission</h4>
+              <p data-en="To provide innovative, inclusive, and value-based education that fosters intellectual curiosity, moral integrity, and lifelong learning." data-hi="अभिनव, समावेशी और मूल्य-आधारित शिक्षा प्रदान करना जो बौद्धिक जिज्ञासा, नैतिक अखंडता और आजीवन सीखने को बढ़ावा देती है।">
+                To provide innovative, inclusive, and value-based education that fosters intellectual curiosity, moral integrity, and lifelong learning.
+              </p>
+            </div>
+          </div>
+
+          <div class="history-block">
+            <h4 data-en="Our History" data-hi="हमारा इतिहास">Our History</h4>
+            <p data-en="Sample Text" data-hi="Sample Text">
+                Sample Text
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MESSAGE SECTION ===== -->
+  <section id="message" class="section message-section">
+    <div class="container">
+      <div class="section-label reveal" data-en="Leadership" data-hi="नेतृत्व">Leadership</div>
+      <h2 class="section-title reveal" data-en="Messages from Our Leaders" data-hi="हमारे नेताओं के संदेश">Messages from Our Leaders</h2>
+
+      <div class="message-grid">
+        <!-- Principal -->
+        <div class="message-card reveal">
+          <div class="message-img-wrap">
+            <div class="img-placeholder person-img">
+              <i class="fas fa-user-tie"></i>
+              <span data-en="Principal" data-hi="प्राचार्य">Principal</span>
+            </div>
+            <div class="message-role-badge" data-en="Principal" data-hi="प्राचार्य">Principal</div>
+          </div>
+          <div class="message-body">
+            <div class="quote-mark">"</div>
+            <p data-en="Education is not just about filling a bucket, but lighting a fire. At Growell, we believe every child is unique, and our role is to identify, nurture and amplify that uniqueness. We don't just prepare students for exams — we prepare them for life." data-hi="शिक्षा केवल बाल्टी भरने के बारे में नहीं है, बल्कि अग्नि प्रज्वलित करने के बारे में है। ग्रोवेल में, हम मानते हैं कि प्रत्येक बच्चा अद्वितीय है, और हमारी भूमिका उस विशिष्टता को पहचानना, पोषित करना और बढ़ाना है।">
+              Education is not just about filling a bucket, but lighting a fire. At Growell, we believe every child is unique, and our role is to identify, nurture and amplify that uniqueness. We don't just prepare students for exams — we prepare them for life.
+            </p>
+            <div class="message-author">
+              <strong data-en="Mrs. Neelam Dahiya" data-hi="श्रीमती नीलम दहिया">Mrs. Neelam Dahiya</strong>
+              <span data-en="Principal, Growell Public School" data-hi="प्राचार्य, ग्रोवेल पब्लिक स्कूल">Principal, Growell Public School</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Director -->
+        <div class="message-card reveal">
+          <div class="message-img-wrap">
+            <div class="img-placeholder person-img director">
+              <i class="fas fa-user-tie"></i>
+              <span data-en="Director" data-hi="निदेशक">Director</span>
+            </div>
+            <div class="message-role-badge director-badge" data-en="Director" data-hi="निदेशक">Director</div>
+          </div>
+          <div class="message-body">
+            <div class="quote-mark">"</div>
+            <p data-en="Growell was born from a conviction that quality education should be accessible to all. Two decades later, that conviction has only grown stronger. We remain committed to investing in the best faculty, infrastructure, and opportunities so that our students can dream big and achieve bigger." data-hi="ग्रोवेल की स्थापना इस विश्वास से हुई कि गुणवत्तापूर्ण शिक्षा सभी के लिए सुलभ होनी चाहिए। दो दशक बाद, वह विश्वास और भी मजबूत हो गया है। हम सर्वश्रेष्ठ संकाय, बुनियादी ढांचे और अवसरों में निवेश करने के लिए प्रतिबद्ध हैं।">
+              Growell was born from a conviction that quality education should be accessible to all. Two decades later, that conviction has only grown stronger. We remain committed to investing in the best faculty, infrastructure, and opportunities so that our students can dream big and achieve bigger.
+            </p>
+            <div class="message-author">
+              <strong data-en="Mr. Pramod Dahiya" data-hi="श्री प्रमोद दहिया">Mr. Pramod Dahiya</strong>
+              <span data-en="Director, Growell Public School" data-hi="निदेशक, ग्रोवेल पब्लिक स्कूल">Director, Growell Public School</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ACADEMICS SECTION ===== -->
+  <section id="academics" class="section academics-section">
+    <div class="container">
+      <div class="section-label reveal" data-en="Curriculum" data-hi="पाठ्यक्रम">Curriculum</div>
+      <h2 class="section-title reveal" data-en="Academics at Growell" data-hi="ग्रोवेल में शिक्षा">Academics at Growell</h2>
+      <p class="section-sub reveal" data-en="We follow the CBSE curriculum, enriched with activity-based learning, critical thinking, and 21st-century skills development across all grades." data-hi="हम सीबीएसई पाठ्यक्रम का पालन करते हैं, जो सभी कक्षाओं में गतिविधि-आधारित शिक्षा, आलोचनात्मक सोच और 21वीं सदी के कौशल विकास से समृद्ध है।">
+        We follow the CBSE curriculum, enriched with activity-based learning, critical thinking, and 21st-century skills development across all grades.
+      </p>
+
+      <div class="academics-grid">
+        <div class="class-card reveal">
+          <div class="class-level primary">
+            <i class="fas fa-seedling"></i>
+          </div>
+          <h3 data-en="Pre-Primary" data-hi="पूर्व-प्राथमिक">Pre-Primary</h3>
+          <p class="class-range" data-en="Nursery · LKG · UKG" data-hi="नर्सरी · एलकेजी · यूकेजी">Nursery · LKG · UKG</p>
+          <p data-en="Play-based learning, phonics, basic numeracy, motor skill development in a safe and joyful setting." data-hi="सुरक्षित और आनंदपूर्ण वातावरण में खेल-आधारित शिक्षा, ध्वनिविज्ञान, बुनियादी अंकगणित, मोटर कौशल विकास।">
+            Play-based learning, phonics, basic numeracy, motor skill development in a safe and joyful setting.
+          </p>
+          <div class="subjects-tags">
+            <span data-en="English" data-hi="अंग्रेजी">English</span>
+            <span data-en="Hindi" data-hi="हिंदी">Hindi</span>
+            <span data-en="Maths" data-hi="गणित">Maths</span>
+            <span data-en="Arts" data-hi="कला">Arts</span>
+          </div>
+        </div>
+
+        <div class="class-card reveal">
+          <div class="class-level middle">
+            <i class="fas fa-book-open"></i>
+          </div>
+          <h3 data-en="Primary School" data-hi="प्राथमिक विद्यालय">Primary School</h3>
+          <p class="class-range" data-en="Class I – V" data-hi="कक्षा I – V">Class I – V</p>
+          <p data-en="Strong foundation in core subjects with a focus on concept clarity, creativity, and values education." data-hi="मूल विषयों में मजबूत आधार जिसमें अवधारणा स्पष्टता, रचनात्मकता और मूल्य शिक्षा पर ध्यान केंद्रित है।">
+            Strong foundation in core subjects with a focus on concept clarity, creativity, and values education.
+          </p>
+          <div class="subjects-tags">
+            <span>English</span><span>Hindi</span><span>Maths</span>
+            <span>EVS</span><span>GK</span>
+          </div>
+        </div>
+
+        <div class="class-card reveal">
+          <div class="class-level senior">
+            <i class="fas fa-microscope"></i>
+          </div>
+          <h3 data-en="Middle School" data-hi="माध्यमिक विद्यालय">Middle School</h3>
+          <p class="class-range" data-en="Class VI – VIII" data-hi="कक्षा VI – VIII">Class VI – VIII</p>
+          <p data-en="Subject specialisation begins. Science labs, computer labs, and project-based learning accelerate growth." data-hi="विषय विशेषज्ञता शुरू होती है। विज्ञान प्रयोगशालाएं, कंप्यूटर प्रयोगशालाएं और परियोजना-आधारित शिक्षा विकास को गति देती है।">
+            Subject specialisation begins. Science labs, computer labs, and project-based learning accelerate growth.
+          </p>
+          <div class="subjects-tags">
+            <span>Science</span><span>Maths</span><span>Social Science</span>
+            <span>English</span><span>Hindi</span><span>Computer</span>
+          </div>
+        </div>
+
+        <div class="class-card reveal">
+          <div class="class-level board">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <h3 data-en="Secondary (Class IX-X)" data-hi="माध्यमिक (कक्षा IX-X)">Secondary (Class IX-X)</h3>
+          <p class="class-range" data-en="Class IX – X · CBSE Board" data-hi="कक्षा IX – X · सीबीएसई बोर्ड">Class IX – X · CBSE Board</p>
+          <p data-en="Board-focused preparation with regular mock tests, expert mentoring, and a 98% pass rate consistently." data-hi="बोर्ड-केंद्रित तैयारी नियमित मॉक टेस्ट, विशेषज्ञ मार्गदर्शन और लगातार 98% उत्तीर्णता दर के साथ।">
+            Board-focused preparation with regular mock tests, expert mentoring, and a XX% pass rate consistently.
+          </p>
+          <div class="subjects-tags">
+            <span>Science</span><span>Social Science</span><span>Hindi</span>
+            <span>Maths</span><span>English</span><span>Computer</span>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ADMISSIONS SECTION ===== -->
+  <section id="admissions" class="section admissions-section">
+    <div class="container">
+      <div class="section-label reveal" data-en="Join Us" data-hi="हमसे जुड़ें">Join Us</div>
+      <h2 class="section-title reveal" data-en="Admissions 2025–26" data-hi="प्रवेश 2025–26">Admissions 2025–26</h2>
+
+      <div class="admissions-layout">
+        <!-- School Picture -->
+        <div class="schoolPicture-section reveal">
+          <h3 data-en="School Picture" data-hi="स्कूल की तस्वीर">School Picture</h3>
+          <div class="school-img-container">
+            <div class="img-placeholder school-img">
+              <img src="images/picSchool2.png" alt="Growell Public School Building">
+            </div>
+          </div>
+        </div>
+
+        <!-- Admission Form -->
+        <div class="form-section reveal">
+          <h3 data-en="Online Admission Enquiry" data-hi="ऑनलाइन प्रवेश जांच">Online Admission Enquiry</h3>
+          <form id="admissionForm" class="school-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label data-en="Student Name *" data-hi="छात्र का नाम *">Student Name *</label>
+                <input type="text" id="studentName" placeholder="Full Name" required />
+                <span class="error-msg" id="nameErr"></span>
+              </div>
+              <div class="form-group">
+                <label data-en="Date of Birth *" data-hi="जन्म तिथि *">Date of Birth *</label>
+                <input type="date" id="dob" required />
+                <span class="error-msg" id="dobErr"></span>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label data-en="Class Applying For *" data-hi="प्रवेश के लिए कक्षा *">Class Applying For *</label>
+                <select id="classApply" required>
+                  <option value="" data-en="Select Class" data-hi="कक्षा चुनें">Select Class</option>
+                  <option>Nursery</option><option>LKG</option><option>UKG</option>
+                  <option>Class I</option><option>Class II</option><option>Class III</option>
+                  <option>Class IV</option><option>Class V</option><option>Class VI</option>
+                  <option>Class VII</option><option>Class VIII</option><option>Class IX</option>
+                </select>
+                <span class="error-msg" id="classErr"></span>
+              </div>
+              <div class="form-group">
+                <label data-en="Gender *" data-hi="लिंग *">Gender *</label>
+                <select id="gender" required>
+                  <option value="" data-en="Select" data-hi="चुनें">Select</option>
+                  <option data-en="Male" data-hi="पुरुष">Male</option>
+                  <option data-en="Female" data-hi="महिला">Female</option>
+                  <option data-en="Other" data-hi="अन्य">Other</option>
+                </select>
+                <span class="error-msg" id="genderErr"></span>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label data-en="Parent/Guardian Name *" data-hi="माता/पिता/अभिभावक का नाम *">Parent/Guardian Name *</label>
+                <input type="text" id="parentName" placeholder="Parent Name" required />
+                <span class="error-msg" id="parentErr"></span>
+              </div>
+              <div class="form-group">
+                <label data-en="Mobile Number *" data-hi="मोबाइल नंबर *">Mobile Number *</label>
+                <input type="tel" id="mobile" placeholder="10-digit mobile" required />
+                <span class="error-msg" id="mobileErr"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label data-en="Email Address" data-hi="ईमेल पता">Email Address</label>
+              <input type="email" id="admEmail" placeholder="email@example.com" />
+              <span class="error-msg" id="emailErr"></span>
+            </div>
+            <div class="form-group">
+              <label data-en="Previous School (if any)" data-hi="पिछला स्कूल (यदि कोई हो)">Previous School (if any)</label>
+              <input type="text" id="prevSchool" placeholder="Previous school name" />
+            </div>
+            <button type="submit" class="btn btn-primary full-btn">
+              <span data-en="Submit Enquiry" data-hi="जांच जमा करें">Submit Enquiry</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+          <div id="admSuccess" class="success-msg hidden">
+            <i class="fas fa-check-circle"></i>
+            <p data-en="Thank you! Your admission enquiry has been submitted. We will contact you within 24 hours." data-hi="धन्यवाद! आपकी प्रवेश जांच जमा हो गई है। हम 24 घंटे के भीतर आपसे संपर्क करेंगे।">
+              Thank you! Your admission enquiry has been submitted. We will contact you within 24 hours.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NOTICE BOARD ===== -->
+  <section id="notices" class="section notices-section">
+    <div class="container">
+      <div class="section-label reveal" data-en="Updates" data-hi="अपडेट">Updates</div>
+      <h2 class="section-title reveal" data-en="Notice Board" data-hi="सूचना पट्टिका">Notice Board</h2>
+
+      <div class="notices-layout">
+        <!-- Left Side: Notices Timeline -->
+        <div class="notices-left reveal">
+          <div class="notices-timeline" id="noticesList">
+            <div class="notice-timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4 data-en="Notice Title" data-hi="सूचना शीर्षक">Notice Title</h4>
+                <span class="notice-date" data-en="Date" data-hi="तारीख">Date</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side: 2x3 Photo Grid -->
+        <div class="notices-right reveal">
+          <div class="notice-gallery-grid">
+            <div class="gallery-item">
+              <div class="img-placeholder">
+                <i class="fas fa-images"></i>
+                <span data-en="Photo 1" data-hi="फोटो 1">Photo 1</span>
+              </div>
+            </div>
+            <div class="gallery-item">
+              <div class="img-placeholder">
+                <i class="fas fa-images"></i>
+                <span data-en="Photo 2" data-hi="फोटो 2">Photo 2</span>
+              </div>
+            </div>
+            <div class="gallery-item">
+              <div class="img-placeholder">
+                <i class="fas fa-images"></i>
+                <span data-en="Photo 3" data-hi="फोटो 3">Photo 3</span>
+              </div>
+            </div>
+            <div class="gallery-item">
+              <div class="img-placeholder">
+                <i class="fas fa-images"></i>
+                <span data-en="Photo 4" data-hi="फोटो 4">Photo 4</span>
+              </div>
+            </div>
+            <div class="gallery-item">
+              <div class="img-placeholder">
+                <i class="fas fa-images"></i>
+                <span data-en="Photo 5" data-hi="फोटो 5">Photo 5</span>
+              </div>
+            </div>
+            <div class="gallery-item">
+              <div class="img-placeholder">
+                <i class="fas fa-images"></i>
+                <span data-en="Photo 6" data-hi="फोटो 6">Photo 6</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EVENTS SECTION ===== -->
+  <section id="events" class="section events-section">
+    <div class="container">
+      <div class="section-label reveal" data-en="Calendar" data-hi="कैलेंडर">Calendar</div>
+      <h2 class="section-title reveal" data-en="Events & Activities" data-hi="कार्यक्रम और गतिविधियां">Events & Activities</h2>
+
+      <div class="events-tabs reveal">
+        <button class="event-tab active" data-tab="upcoming" data-en="Upcoming" data-hi="आगामी">Upcoming</button>
+        <button class="event-tab" data-tab="past" data-en="Past Events" data-hi="पिछले कार्यक्रम">Past Events</button>
+      </div>
+
+      <div class="events-grid" id="eventsGrid"></div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section id="gallery" class="section gallery-section">
+    <div class="container">
+      <div class="section-label reveal" data-en="Our Campus" data-hi="हमारा परिसर">Our Campus</div>
+      <h2 class="section-title reveal" data-en="Photo Gallery" data-hi="फोटो गैलरी">Photo Gallery</h2>
+
+      <div class="gallery-filter reveal" id="galleryFilter">
+        <button class="filter-btn active" data-filter="all" data-en="All" data-hi="सभी">All</button>
+        <button class="filter-btn" data-filter="campus" data-en="Campus" data-hi="परिसर">Campus</button>
+        <button class="filter-btn" data-filter="events" data-en="Events" data-hi="कार्यक्रम">Events</button>
+        <button class="filter-btn" data-filter="sports" data-en="Sports" data-hi="खेल">Sports</button>
+        <button class="filter-btn" data-filter="labs" data-en="Labs" data-hi="प्रयोगशालाएं">Labs</button>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid"></div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lb-close" id="lbClose"><i class="fas fa-times"></i></button>
+    <button class="lb-nav lb-prev" id="lbPrev"><i class="fas fa-chevron-left"></i></button>
+    <button class="lb-nav lb-next" id="lbNext"><i class="fas fa-chevron-right"></i></button>
+    <div class="lb-content">
+      <div class="lb-img-wrap" id="lbImgWrap"></div>
+      <p class="lb-caption" id="lbCaption"></p>
+    </div>
+  </div>
+
+  <!-- ===== TIMETABLE SECTION ===== -->
+  <section id="timetable" class="section timetable-section">
+    <div class="container">
+      <div class="section-label reveal" data-en="Schedule" data-hi="कार्यक्रम">Schedule</div>
+      <h2 class="section-title reveal" data-en="Class Timetable" data-hi="कक्षा समय-सारणी">Class Timetable</h2>
+
+      <div class="timetable-controls reveal">
+        <label data-en="Select Class:" data-hi="कक्षा चुनें:">Select Class:</label>
+        <select id="ttClassSelect">
+          <option value="primary" data-en="Class I–V" data-hi="कक्षा I–V">Class I–V</option>
+          <option value="middle" data-en="Class VI–VIII" data-hi="कक्षा VI–VIII">Class VI–VIII</option>
+          <option value="secondary" data-en="Class IX–X" data-hi="कक्षा IX–X">Class IX–X</option>
+        </select>
+      </div>
+
+      <div class="table-wrapper reveal">
+        <table class="timetable" id="timetableEl">
+          <thead id="ttHead"></thead>
+          <tbody id="ttBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="section-label reveal" data-en="Reach Us" data-hi="हम तक पहुंचें">Reach Us</div>
+      <h2 class="section-title reveal" data-en="Contact Us" data-hi="संपर्क करें">Contact Us</h2>
+
+      <div class="contact-layout">
+        <div class="contact-info reveal">
+          <div class="info-card">
+            <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <h4 data-en="Address" data-hi="पता">Address</h4>
+              <p data-en="Village chatiya auliya , Purkhas road, Sonipat, Haryana – 131001" data-hi="ग्राम चटिया औलिया, पुरखास रोड, सोनीपत, हरियाणा – 131001">
+                Village chatiya auliya , Purkhas road, Sonipat, Haryana – 131001
+              </p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+            <div>
+              <h4 data-en="Phone" data-hi="फोन">Phone</h4>
+              <p>+91 82951 22061<br />+91 XXXXX XXXXX</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <h4 data-en="Email" data-hi="ईमेल">Email</h4>
+              <p>Growell.publicschool@yahoo.in</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon"><i class="fas fa-clock"></i></div>
+            <div>
+              <h4 data-en="Office Hours" data-hi="कार्यालय समय">Office Hours</h4>
+              <p data-en="Mon–Sat: 9:00 AM – 3:00 PM" data-hi="सोम–शनि: सुबह 9:00 – शाम 3:00">Mon–Sat: 9:00 AM – 3:00 PM</p>
+            </div>
+          </div>
+
+          <!-- Map -->
+          <div class="map-wrap">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222834.25975985624!2d76.84245399077852!3d29.229868838192974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390db9447c4e2839%3A0xbc047505c8134963!2sGrowell%20Public%20School!5e0!3m2!1sen!2sin!4v1776685462893!5m2!1sen!2sin"
+              width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" title="School Location">
+            </iframe>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap reveal">
+          <h3 data-en="Send Us a Message" data-hi="हमें संदेश भेजें">Send Us a Message</h3>
+          <form id="contactForm" class="school-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label data-en="Your Name *" data-hi="आपका नाम *">Your Name *</label>
+                <input type="text" id="ctName" placeholder="Full Name" required />
+                <span class="error-msg" id="ctNameErr"></span>
+              </div>
+              <div class="form-group">
+                <label data-en="Mobile *" data-hi="मोबाइल *">Mobile *</label>
+                <input type="tel" id="ctMobile" placeholder="10-digit number" required />
+                <span class="error-msg" id="ctMobileErr"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label data-en="Email *" data-hi="ईमेल *">Email *</label>
+              <input type="email" id="ctEmail" placeholder="your@email.com" required />
+              <span class="error-msg" id="ctEmailErr"></span>
+            </div>
+            <div class="form-group">
+              <label data-en="Subject" data-hi="विषय">Subject</label>
+              <input type="text" id="ctSubject" placeholder="Regarding..." />
+            </div>
+            <div class="form-group">
+              <label data-en="Message *" data-hi="संदेश *">Message *</label>
+              <textarea id="ctMessage" rows="5" placeholder="Write your message..." required></textarea>
+              <span class="error-msg" id="ctMsgErr"></span>
+            </div>
+            <button type="submit" class="btn btn-primary full-btn">
+              <span data-en="Send Message" data-hi="संदेश भेजें">Send Message</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+          <div id="ctSuccess" class="success-msg hidden">
+            <i class="fas fa-check-circle"></i>
+            <p data-en="Message sent successfully! We'll get back to you soon." data-hi="संदेश सफलतापूर्वक भेजा गया! हम जल्द ही आपसे संपर्क करेंगे।">
+              Message sent successfully! We'll get back to you soon.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">GPS</div>
+          <p data-en="Growell Public School — A premier CBSE-affiliated institution dedicated to holistic education and building tomorrow's leaders." data-hi="ग्रोवेल पब्लिक स्कूल — समग्र शिक्षा और कल के नेताओं के निर्माण के लिए समर्पित एक प्रमुख सीबीएसई-संबद्ध संस्थान।">
+            Growell Public School — A premier CBSE-affiliated institution dedicated to holistic education and building tomorrow's leaders.
+          </p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links-col">
+          <h4 data-en="Quick Links" data-hi="त्वरित लिंक">Quick Links</h4>
+          <ul>
+            <li><a href="#home" data-en="Home" data-hi="होम">Home</a></li>
+            <li><a href="#about" data-en="About Us" data-hi="हमारे बारे में">About Us</a></li>
+            <li><a href="#academics" data-en="Academics" data-hi="शिक्षा">Academics</a></li>
+            <li><a href="#admissions" data-en="Admissions" data-hi="प्रवेश">Admissions</a></li>
+            <li><a href="#events" data-en="Events" data-hi="कार्यक्रम">Events</a></li>
+            <li><a href="#gallery" data-en="Gallery" data-hi="गैलरी">Gallery</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4 data-en="Academics" data-hi="शिक्षा">Academics</h4>
+          <ul>
+            <li><a href="#academics" data-en="Pre-Primary" data-hi="पूर्व-प्राथमिक">Pre-Primary</a></li>
+            <li><a href="#academics" data-en="Primary (I–V)" data-hi="प्राथमिक (I–V)">Primary (I–V)</a></li>
+            <li><a href="#academics" data-en="Middle (VI–VIII)" data-hi="माध्यमिक (VI–VIII)">Middle (VI–VIII)</a></li>
+            <li><a href="#academics" data-en="Secondary (IX–X)" data-hi="माध्यमिक (IX–X)">Secondary (IX–X)</a></li>
+        </ul>
+        </div>
+
+        <div class="footer-contact-col">
+          <h4 data-en="Contact Info" data-hi="संपर्क जानकारी">Contact Info</h4>
+          <p><i class="fas fa-map-marker-alt"></i> <span data-en="Village chatiya auliya , Purkhas road, Sonipat, Haryana" data-hi="ग्राम चटिया औलिया, पुरखास रोड, सोनीपत, हरियाणा">Village chatiya auliya , Purkhas road, Sonipat, Haryana</span></p>
+          <p><i class="fas fa-phone"></i> +91 82951 22061</p>
+          <p><i class="fas fa-envelope"></i> Growell.publicschool@yahoo.in</p>
+          <p><i class="fas fa-clock"></i> <span data-en="Mon–Sat: 9AM – 3PM" data-hi="सोम–शनि: सुबह 9 – शाम 3">Mon–Sat: 9AM – 3PM</span></p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p data-en="© 2024 Growell Public School. All Rights Reserved." data-hi="© 2024 ग्रोवेल पब्लिक स्कूल। सर्वाधिकार सुरक्षित।">
+          © 2026 Growell Public School. All Rights Reserved.
+        </p>
+        <p data-en="Affiliated to CBSE | Affiliation No. 530112" data-hi="सीबीएसई से संबद्ध | संबद्धता संख्या 530112">
+          Affiliated to CBSE | Affiliation No. 531335
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-top" id="backTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="system.js"></script>
+</body>
+</html>
