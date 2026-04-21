@@ -146,34 +146,34 @@ observeReveal();
 const noticesData = [
   {
     id: 1,
-    title_en: 'Admissions Open for Session 2025–26',
-    title_hi: 'सत्र 2025–26 के लिए प्रवेश खुले',
-    body_en:  'Online admission forms for session 2025–26 are now available. Last date for submission: 31 March 2025.',
-    body_hi:  'सत्र 2025–26 के लिए ऑनलाइन प्रवेश फॉर्म अब उपलब्ध हैं। जमा करने की अंतिम तिथि: 31 मार्च 2025।',
+    title_en: 'Admissions Open for Session 2026–27',
+    title_hi: 'सत्र 2026–27 के लिए प्रवेश खुले',
+    body_en:  'Online admission forms for session 2026–27 are now available. Last date for submission: 31 March 2026.',
+    body_hi:  'सत्र 2026–27 के लिए ऑनलाइन प्रवेश फॉर्म अब उपलब्ध हैं। जमा करने की अंतिम तिथि: 31 मार्च 2026।',
     date: 'XX Dec XXXX', type: 'urgent', icon: 'urgent'
   },
   {
     id: 2,
-    title_en: 'Admissions Open for Session 2025–26',
-    title_hi: 'सत्र 2025–26 के लिए प्रवेश खुले',
-    body_en:  'Online admission forms for session 2025–26 are now available. Last date for submission: 31 March 2025.',
-    body_hi:  'सत्र 2025–26 के लिए ऑनलाइन प्रवेश फॉर्म अब उपलब्ध हैं। जमा करने की अंतिम तिथि: 31 मार्च 2025।',
+    title_en: 'Admissions Open for Session 2026–27',
+    title_hi: 'सत्र 2026–27 के लिए प्रवेश खुले',
+    body_en:  'Online admission forms for session 2026–27 are now available. Last date for submission: 31 March 2026.',
+    body_hi:  'सत्र 2026–27 के लिए ऑनलाइन प्रवेश फॉर्म अब उपलब्ध हैं। जमा करने की अंतिम तिथि: 31 मार्च 2026।',
     date: 'XX Dec XXXX', type: 'urgent', icon: 'urgent'
   },
   {
     id: 3,
-    title_en: 'Admissions Open for Session 2025–26',
-    title_hi: 'सत्र 2025–26 के लिए प्रवेश खुले',
-    body_en:  'Online admission forms for session 2025–26 are now available. Last date for submission: 31 March 2025.',
-    body_hi:  'सत्र 2025–26 के लिए ऑनलाइन प्रवेश फॉर्म अब उपलब्ध हैं। जमा करने की अंतिम तिथि: 31 मार्च 2025।',
+    title_en: 'Admissions Open for Session 2026–27',
+    title_hi: 'सत्र 2026–27 के लिए प्रवेश खुले',
+    body_en:  'Online admission forms for session 2026–27 are now available. Last date for submission: 31 March 2026.',
+    body_hi:  'सत्र 2026–27 के लिए ऑनलाइन प्रवेश फॉर्म अब उपलब्ध हैं। जमा करने की अंतिम तिथि: 31 मार्च 2026।',
     date: 'XX Dec XXXX', type: 'urgent', icon: 'urgent'
   },
   {
     id: 4,
-    title_en: 'Admissions Open for Session 2025–26',
-    title_hi: 'सत्र 2025–26 के लिए प्रवेश खुले',
-    body_en:  'Online admission forms for session 2025–26 are now available. Last date for submission: 31 March 2025.',
-    body_hi:  'सत्र 2025–26 के लिए ऑनलाइन प्रवेश फॉर्म अब उपलब्ध हैं। जमा करने की अंतिम तिथि: 31 मार्च 2025।',
+    title_en: 'Admissions Open for Session 2026–27',
+    title_hi: 'सत्र 2026–27 के लिए प्रवेश खुले',
+    body_en:  'Online admission forms for session 2026–27 are now available. Last date for submission: 31 March 2026.',
+    body_hi:  'सत्र 2026–27 के लिए ऑनलाइन प्रवेश फॉर्म अब उपलब्ध हैं। जमा करने की अंतिम तिथि: 31 मार्च 2026।',
     date: 'XX Dec XXXX', type: 'urgent', icon: 'urgent'
   },
   
